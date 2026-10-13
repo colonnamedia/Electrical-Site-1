@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# FireWorks fictional template. Remove this block only after client details,
+# claims, form delivery, privacy terms, and production domain are approved.

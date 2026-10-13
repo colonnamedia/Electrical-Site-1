@@ -1,0 +1,9 @@
+{
+  "name": "Keystone Current Electric Demo",
+  "short_name": "Keystone Current",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#f0a202",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
