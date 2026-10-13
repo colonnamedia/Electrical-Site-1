@@ -67,3 +67,13 @@
 - Warm residential renovation variant.
 - EV-first clean-energy variant.
 - Premium architectural-lighting variant.
+
+## Commits and verified results
+
+- Template build: `a1d4fefd4c9bd48a08900a10db8164acbbe10ea0`; Vercel output configuration: `2f8e41eacb43728048146a319425cebc77b70f5a`.
+- FireWorks storefront: seed `583c49ce4120775635678bcb12b611abb6a38c9f`; category `c651da113ae1aa63e3a8bf964ffee94c55643ac4`; pricing test `ceacfb057b41e5e4fec1aff026b62e55a377c840`.
+- `npm run check`: passed all seven HTML pages, navigation targets, required form fields, safety copy, no-send disclosure, provider gate, metadata, and local assets.
+- `npm run build`: passed; static `dist/` output generated and deployed.
+- Public HTTP verification: all seven routes and both WebP assets returned 200 from `https://electrical-site-1.vercel.app/`.
+- Visual verification: live desktop hero, navigation, generated electrician image, urgent issue card, CTA hierarchy, and legibility passed. Responsive CSS includes mobile navigation and stacked hero/form layouts; source checks passed mobile breakpoint coverage.
+- Live form verification: a complete sample request produced the local-only success state and explicitly confirmed that nothing was sent, stored, scheduled, uploaded, or paid.
