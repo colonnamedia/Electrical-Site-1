@@ -77,3 +77,8 @@
 - Public HTTP verification: all seven routes and both WebP assets returned 200 from `https://electrical-site-1.vercel.app/`.
 - Visual verification: live desktop hero, navigation, generated electrician image, urgent issue card, CTA hierarchy, and legibility passed. Responsive CSS includes mobile navigation and stacked hero/form layouts; source checks passed mobile breakpoint coverage.
 - Live form verification: a complete sample request produced the local-only success state and explicitly confirmed that nothing was sent, stored, scheduled, uploaded, or paid.
+
+
+## Homepage image audit — October 19, 2026
+
+Added three distinct supporting stock photographs to the homepage, with responsive layout, descriptive alt text, explicit dimensions, lazy loading and local optimized WebP assets. Existing hero imagery remains. Source and license references are in `PHOTO-SOURCES.md`. Standing rule: every homepage should contain four to five distinct, relevant photographs; repeated hero crops and logos do not count.
