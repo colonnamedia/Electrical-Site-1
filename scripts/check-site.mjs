@@ -1,9 +1,9 @@
 import { access, readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { pages } from "./routes.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const pages = ["index.html", "services.html", "request-service.html", "electrical-repairs.html", "panel-upgrades.html", "lighting-ev.html", "service-areas.html"];
 const failures = [];
 
 for (const page of pages) {

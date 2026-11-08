@@ -82,3 +82,9 @@
 ## Homepage image audit — October 19, 2026
 
 Added three distinct supporting stock photographs to the homepage, with responsive layout, descriptive alt text, explicit dimensions, lazy loading and local optimized WebP assets. Existing hero imagery remains. Source and license references are in `PHOTO-SOURCES.md`. Standing rule: every homepage should contain four to five distinct, relevant photographs; repeated hero crops and logos do not count.
+
+## November 7, 2026 editorial source audit
+
+The homepage now shows its full-width panel-inspection photograph before concise hero copy and the primary service-request CTA, with the urgent safety preview and local-only form in a separate section. The repeated three-photo gallery is replaced by varied assessment, planning and documentation chapters plus an honestly labeled sample case-study slot. Four distinct relevant local photos have descriptive alt text and accurate intrinsic dimensions; supporting photos are lazy loaded. The mobile crop keeps the subject in view, but browser visual verification is still required.
+
+`npm run build` copies seven complete static public pages and a real 404 file, and generates the sitemap from the same route inventory used by `npm run check`. The demo remains noindex. The seven-page source check passed route metadata, structure and JSON-LD; additional source checks passed image paths/dimensions, navigation text, local-only form code, four unique photos, sitemap and 404 outputs. Production direct routes, unknown-route HTTP 404, menu/form interactions and desktop/mobile visual checks remain outstanding until this revision is deployed.
